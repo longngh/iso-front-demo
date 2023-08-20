@@ -33,6 +33,14 @@ const routes = [
           requiresAuth: true,
         },
       },
+      {
+        path: "/target",
+        name: "Target",
+        component: () => import("../views/target/pages/target.vue"),
+        meta: {
+          requiresAuth: true,
+        },
+      },
     ],
   },
 ];

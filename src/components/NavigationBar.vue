@@ -25,8 +25,8 @@
     </div>
   </v-app-bar>
 </template>
-  
-  <script>
+
+<script>
 import { mapStores } from "pinia";
 import { userStore } from "@/stores/userStore";
 
@@ -40,11 +40,10 @@ export default {
   created() {},
 };
 </script>
-  
+
 <style lang="scss" scoped>
 .avatar-img {
   width: 32px;
   height: 32px;
 }
 </style>
-  

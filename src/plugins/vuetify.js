@@ -18,16 +18,16 @@ export default new Vuetify({
         gray500: "#667085",
 
         //neutral
-        // neutral10: "#F7F5F2",
-        // neutral20: "#E5E3E1",
-        // neutral30: "#CCCAC8",
-        // neutral40: "#B2B1AF",
-        // neutral50: "#999796",
-        // neutral60: "#807E7D",
-        // neutral70: "#666564",
-        // neutral80: "#4D4C4B",
-        // neutral90: "#333232",
-        // neutral100: "#1A1919",
+        neutral10: "#F7F5F2",
+        neutral20: "#E5E3E1",
+        neutral30: "#CCCAC8",
+        neutral40: "#B2B1AF",
+        neutral50: "#999796",
+        neutral60: "#807E7D",
+        neutral70: "#666564",
+        neutral80: "#4D4C4B",
+        neutral90: "#333232",
+        neutral100: "#1A1919",
 
         //Primary
         primary25: "#FCFAFF",

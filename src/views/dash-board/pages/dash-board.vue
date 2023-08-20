@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pa-10 dashboard-content mx-auto">
     <div class="text-dp-sm text-center mb-6">Danh sách các tính năng</div>
     <v-row>
       <v-col cols="12" md="3" sm="2" v-for="menu in menus" :key="menu.title">
@@ -108,6 +108,9 @@ export default {
 </script>
 
 <style scoped>
+.dashboard-content {
+  max-width: 1400px;
+}
 .icon-bg {
   width: 64px;
   height: 64px;
