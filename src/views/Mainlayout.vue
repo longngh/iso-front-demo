@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="wrapper d-flex full-height full-width">
+  <div class="wrapper d-flex full-height full-width justify-center">
     <!-- <NavigationDrawer /> -->
     <NavigationBar />
     <div class="container pa-0 ma-0">
@@ -28,7 +28,7 @@ export default {
   background-color: var(--v-secondary-base) !important;
 }
 .container {
-  width: 100vw !important;
+  width: 100% !important;
   background-color: var(--v-secondary-base) !important;
   animation: fadeleft 1s ease-in-out;
 }
