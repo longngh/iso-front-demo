@@ -245,7 +245,7 @@
                       <div>40%</div>
                     </div>
                     <v-progress-linear
-                      value="100"
+                      value="40"
                       :height="5"
                       color="primary"
                       rounded
@@ -453,7 +453,7 @@ export default {
   background-color: white;
 }
 .target-container {
-  width: 100vw !important;
+  width: 100%!important;
 }
 .content-title {
   max-width: 250px;
