@@ -3,7 +3,11 @@
     <div class="full-width d-flex justify-space-between">
       <div class="d-flex align-center">
         <IconButton icon="mdi-menu" />
-        <div class="text-dp-xs font-weight-bold ml-2">iDas</div>
+        <router-link to="/dashboard" class="text-none">
+        <div class="text-dp-xs font-weight-bold ml-2 ">
+         iDas
+        </div>
+      </router-link>
       </div>
     </div>
     <div class="d-flex align-center gap-16">
