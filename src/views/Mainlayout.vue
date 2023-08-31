@@ -1,9 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="wrapper full-height d-flex">
+  <div class="wrapper d-flex full-height full-width">
     <!-- <NavigationDrawer /> -->
     <NavigationBar />
-    <div class="container mx-auto pa-8">
+    <div class="container pa-0 ma-0">
       <router-view></router-view>
     </div>
   </div>
@@ -28,7 +28,8 @@ export default {
   background-color: var(--v-secondary-base) !important;
 }
 .container {
-  max-width: 1400px;
+  width: 100vw !important;
+  background-color: var(--v-secondary-base) !important;
   animation: fadeleft 1s ease-in-out;
 }
 </style>
